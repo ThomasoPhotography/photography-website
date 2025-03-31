@@ -1,13 +1,16 @@
 # Change Log
-## [Version 0.0.0] - 2025-03-31
-### Added
+## 2025-03-31
+### [Version 0.0.0]
+#### Added
 - Initial commit
 - README.md
 - log.md
 - changelog.md
-### Fixed
+- index.html
+#### Fixed
 - git user
-### Changed
+#### Changed
 - changelog.md
 - log.md
-### Removed
+#### Removed
+- style.css.map
