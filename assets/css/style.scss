@@ -364,14 +364,9 @@ body {
 
 .c-btn {
     &__search {
-        background: transparent !important;
+        background-color: transparent !important;
         border: none !important;
         color: var(--text-color);
-        cursor: pointer;
-        padding: 0.5rem;
-        position: absolute;
-        right: .3125rem;
-        transition: var(--transition-fast);
 
         &:hover {
             color: var(--primary-color);
