@@ -14,7 +14,6 @@
 - log.md
 #### Removed
 - style.css.map
-
 ### [Version 0.0.1]
 #### Added
 - .github/workflows
@@ -27,6 +26,7 @@
 #### Removed
 - style.css.map
 
+## 2025-04-22
 ### [Version 0.0.2]
 #### Added
 - Header
@@ -38,7 +38,6 @@
 - index.html
 #### Removed
 - main
-
 ### [Version 0.0.3]
 #### Added
 - Javascript folder
@@ -51,5 +50,18 @@
 - index.html
 - Branch
 - style.scss
+- README.md
+#### Removed
+-  none
+### [Version 0.0.4]
+#### Added
+- Footer
+- Bootstrap
+#### Fixed
+- 
+#### Changed
+- log.md
+- changelog.md
+- index.html
 #### Removed
 -  
