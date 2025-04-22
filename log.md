@@ -14,8 +14,14 @@ Commit VI: Create style.scss/style.css and link it to the html file.
 ### Commits
 ```
 Commit VII: Feat -> Header + Nav & placeholder main
+Commit VIII: Del -> Main
 ```
-## Total hours
+## Daily hours
+```
+31/03/2025 | 3 hours
+22/04/2025 | .. hours
+```
+## Total Hours
 ```
 31/03/2025 | 3 hours
 ```

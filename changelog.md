@@ -29,7 +29,8 @@
 
 ### [Version 0.0.2]
 #### Added
-- 
+- Header
+- Nav
 #### Fixed
 - 
 #### Changed
