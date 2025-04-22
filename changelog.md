@@ -32,10 +32,24 @@
 - Header
 - Nav
 #### Fixed
-- 
 #### Changed
 - changelog.md
 - log.md
 - index.html
 #### Removed
+- main
+
+### [Version 0.0.3]
+#### Added
+- Javascript folder
+- script.js
+#### Fixed
 - 
+#### Changed
+- changelog.md
+- log.md
+- index.html
+- Branch
+- style.scss
+#### Removed
+-  
