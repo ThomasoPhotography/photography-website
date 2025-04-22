@@ -1,11 +1,11 @@
-// #region ***  DOM references                           ***********
+// #region ***  DOM references
 const bodyEl = document.body;
-const toggleBtn = document.getElementById(".theme-toggle");
+const toggleBtn = document.querySelector(".c-btn__toggle--theme");
 const moonIcon = toggleBtn.querySelector(".moon-icon");
 const sunIcon = toggleBtn.querySelector(".sun-icon");
 // #endregion
 
-// #region ***  Callback-Visualisation - show___         ***********
+// #region ***  Callback-Visualisation
 function showDarkMode(isDark) {
     bodyEl.classList.toggle("dark-mode", isDark);
     moonIcon.classList.toggle("hidden", isDark);
@@ -13,39 +13,31 @@ function showDarkMode(isDark) {
 }
 // #endregion
 
-// #region ***  Callback-No Visualisation - callback___  ***********
+// #region ***  Callback-No Visualisation
 function callbackToggleTheme() {
-    const isDark = bodyEl.classList.contains("dark-mode");
-    const newMode = !isDark;
+    const newMode = !bodyEl.classList.contains("dark-mode");
     showDarkMode(newMode);
     localStorage.setItem("darkModeEnabled", newMode);
 }
 // #endregion
 
-// #region ***  Data Access - get___                     ***********
+// #region ***  Data Access
 function getInitialTheme() {
-    const stored = localStorage.getItem("darkModeEnabled");
-    if (stored !== null) {
-        return stored === "true";
-    }
-    // default to match system preference
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // Only use stored value; otherwise default to light
+    return localStorage.getItem("darkModeEnabled") === "true";
 }
 // #endregion
 
-// #region ***  Event Listeners - listenTo___            ***********
+// #region ***  Event Listeners
 function listenToToggle() {
     toggleBtn.addEventListener("click", callbackToggleTheme);
 }
-
 // #endregion
 
-// #region ***  Init / DOMContentLoaded                  ***********
+// #region ***  Init / DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function () {
-    // Initialization code here
-    console.log("Document is fully loaded and ready.");
-    const initDark = getInitialTheme();
-    showDarkMode(initDark);
+    // apply saved theme (false if never set)
+    showDarkMode(getInitialTheme());
     listenToToggle();
 });
 // #endregion
