@@ -1,17 +1,7 @@
 // #region ***  DOM references                           ***********
-const toggleModes = document.querySelectorAll(`.js-modes`);
 // #endregion
 
 // #region ***  Callback-Visualisation - show___         ***********
-try {
-    for (const mode of toggleModes) {
-        mode.addEventListener('click', function () {
-            console.log(`Mode ${mode.dataset.mode} activated`);
-        });
-    };
-} catch (error) {
-    console.error(`Error: ${error}`);
-}
 // #endregion
 
 // #region ***  Callback-No Visualisation - callback___  ***********
