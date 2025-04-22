@@ -375,7 +375,9 @@ body {
 
         &:hover {
             color: var(--primary-color);
-            transform: scale(1.1);
+            text-shadow: var(--neon-glow);
+            background: rgba(255, 255, 255, 0.15);
+            transform: rotate(15deg);
         }
     }
 
@@ -406,6 +408,13 @@ body {
         background-color: transparent !important;
         border: none !important;
         color: var(--text-color);
+
+        &:hover {
+            color: var(--primary-color);
+            text-shadow: var(--neon-glow);
+            background: rgba(255, 255, 255, 0.15);
+            transform: rotate(15deg);
+        }
     }
 }
 

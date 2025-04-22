@@ -21,6 +21,7 @@ Commit XI: Repo -> Added branch 'index'
 Commit XII: Fix -> SCSS nesting + PX to REM
 Commit XIII: Feat -> javaScript functions
 Commit XIV: Fix -> Buttons and colors
+Commit XV: Fix -> Nav links
 ```
 ## Daily hours
 ```

@@ -350,7 +350,9 @@ body {
 }
 .c-btn__search:hover {
   color: var(--primary-color);
-  transform: scale(1.1);
+  text-shadow: var(--neon-glow);
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(15deg);
 }
 .c-btn__toggle--theme {
   background: transparent !important;
@@ -375,6 +377,12 @@ body {
   background-color: transparent !important;
   border: none !important;
   color: var(--text-color);
+}
+.c-btn__login:hover {
+  color: var(--primary-color);
+  text-shadow: var(--neon-glow);
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(15deg);
 }
 
 .c-hamburger {
