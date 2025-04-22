@@ -22,6 +22,7 @@ Commit XII: Fix -> SCSS nesting + PX to REM
 Commit XIII: Feat -> javaScript functions
 Commit XIV: Fix -> Buttons and colors
 Commit XV: Fix -> Nav links
+Commit XVI: Fix -> Search button
 ```
 ## Daily hours
 ```
