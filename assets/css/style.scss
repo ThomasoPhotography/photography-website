@@ -364,8 +364,8 @@ body {
 
 .c-btn {
     &__search {
-        background: none;
-        border: none;
+        background: transparent !important;
+        border: none !important;
         color: var(--text-color);
         cursor: pointer;
         padding: 0.5rem;
@@ -375,13 +375,15 @@ body {
 
         &:hover {
             color: var(--primary-color);
-            transform: scale(1.1);
+            text-shadow: var(--neon-glow);
+            background: rgba(255, 255, 255, 0.15);
+            transform: rotate(15deg);
         }
     }
 
     &__toggle {
         &--theme {
-            background: rgba(255, 255, 255, 0.08);
+            background: transparent !important;
             border: 1px solid var(--border-color);
             color: var(--text-color);
             cursor: pointer;
@@ -401,6 +403,19 @@ body {
             }
         }
     }
+
+    &__login {
+        background-color: transparent !important;
+        border: none !important;
+        color: var(--text-color);
+
+        &:hover {
+            color: var(--primary-color);
+            text-shadow: var(--neon-glow);
+            background: rgba(255, 255, 255, 0.15);
+            transform: rotate(15deg);
+        }
+    }
 }
 
 .c-hamburger {
@@ -412,7 +427,9 @@ body {
         display: block;
         width: 100%;
         height: 2px;
-        background: var(--text-color);
+        color: var(--text-color);
+        background-color: transparent !important;
+        border: none !important;
         position: absolute;
         transition: all var(--transition-medium);
         border-radius: .625rem;
@@ -433,7 +450,7 @@ body {
 
     @media (max-width: 968px) {
         &__span {
-            background: var(--text-color);
+            color: var(--text-color);
         }
     }
 }

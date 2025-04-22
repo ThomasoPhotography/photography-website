@@ -339,8 +339,8 @@ body {
 }
 
 .c-btn__search {
-  background: none;
-  border: none;
+  background: transparent !important;
+  border: none !important;
   color: var(--text-color);
   cursor: pointer;
   padding: 0.5rem;
@@ -350,10 +350,12 @@ body {
 }
 .c-btn__search:hover {
   color: var(--primary-color);
-  transform: scale(1.1);
+  text-shadow: var(--neon-glow);
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(15deg);
 }
 .c-btn__toggle--theme {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent !important;
   border: 1px solid var(--border-color);
   color: var(--text-color);
   cursor: pointer;
@@ -371,6 +373,17 @@ body {
   background: rgba(255, 255, 255, 0.15);
   transform: rotate(15deg);
 }
+.c-btn__login {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--text-color);
+}
+.c-btn__login:hover {
+  color: var(--primary-color);
+  text-shadow: var(--neon-glow);
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(15deg);
+}
 
 .c-hamburger {
   width: 1.5rem;
@@ -381,7 +394,9 @@ body {
   display: block;
   width: 100%;
   height: 2px;
-  background: var(--text-color);
+  color: var(--text-color);
+  background-color: transparent !important;
+  border: none !important;
   position: absolute;
   transition: all var(--transition-medium);
   border-radius: 0.625rem;
@@ -398,7 +413,7 @@ body {
 }
 @media (max-width: 968px) {
   .c-hamburger__span {
-    background: var(--text-color);
+    color: var(--text-color);
   }
 }
 
