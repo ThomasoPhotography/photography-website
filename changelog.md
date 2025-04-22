@@ -50,5 +50,18 @@
 - index.html
 - Branch
 - style.scss
+- README.md
+#### Removed
+-  none
+### [Version 0.0.4]
+#### Added
+- Footer
+- Bootstrap
+#### Fixed
+- 
+#### Changed
+- log.md
+- changelog.md
+- index.html
 #### Removed
 -  

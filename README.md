@@ -20,9 +20,11 @@ As Thomaso Photography evolves, I aim to introduce more features such as communi
 ___
 ## Versions
 ### 0.0.0: Building the Foundation
-The initial commit sets the stage for future enhancements with essential files and structure.
+Launched the project with foundational files including README, log, and changelog documents. Fixed git user settings and made initial adjustments to log and changelog files while removing unnecessary style files.
 ### 0.0.1: Workflow Wonders
-Introducing automated workflows to streamline development and ensure code quality.
+Expanded the project with GitHub workflows for automated code analysis. Continued to refine documentation and fixed git user settings, ensuring a smoother development process.
 ### 0.0.2: Navigating New Heights
-Enhancements to user navigation with a fresh header and nav, improving user experience.
-### 0.0.3: The addition of JavaScript functionality opens up new possibilities for interactivity.
+Added a new header and navigation elements to improve site usability. Updated various documentation files to reflect changes and removed the main component for a cleaner structure.
+### 0.0.3: Scripting Success
+Introduced a dedicated JavaScript folder and script file to enhance interactivity. Fixed issues in the style sheet and made further updates to documentation and index files, ensuring a cohesive user experience.
+___
