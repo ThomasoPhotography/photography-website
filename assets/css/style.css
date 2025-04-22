@@ -201,6 +201,11 @@ body {
   box-shadow: 0 0 10px rgba(33, 150, 243, 0.5), 0 0 20px rgba(33, 150, 243, 0.3), 0 0 30px rgba(33, 150, 243, 0.1);
 }
 
+.c-copyright {
+  background-color: #f5e8d0;
+  color: #ffffff;
+}
+
 .c-footer {
   background-color: #f5e8d0;
   position: relative;
