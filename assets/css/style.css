@@ -53,6 +53,12 @@ body {
   transform: rotate(180deg);
 }
 
+.fas {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--text-color);
+}
+
 /*---------------------------------------/*
  # ELEMENTS
 /*---------------------------------------*/
@@ -300,6 +306,9 @@ body {
 .c-icon {
   transition: var(--transition-medium);
   vertical-align: middle;
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--text-color);
 }
 .c-icon__chevron {
   transition: transform var(--transition-medium);

@@ -55,6 +55,12 @@ body {
     }
 }
 
+.fas {
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--text-color);
+}
+
 /*---------------------------------------/*
  # ELEMENTS
 /*---------------------------------------*/
@@ -322,6 +328,9 @@ body {
 .c-icon {
     transition: var(--transition-medium);
     vertical-align: middle;
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--text-color);
 
     &__chevron {
         transition: transform var(--transition-medium);
