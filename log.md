@@ -15,6 +15,7 @@ Commit VI: Create style.scss/style.css and link it to the html file.
 ```
 Commit VII: Feat -> Header + Nav & placeholder main
 Commit VIII: Del -> Main
+Commit IX: Fix -> Update styles for header and navigation
 ```
 ## Daily hours
 ```
