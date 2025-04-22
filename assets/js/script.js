@@ -141,11 +141,11 @@ const listenToEvents = () => {
     themeToggle.addEventListener('click', () => {
         isDark = !isDark;
         if (isDark) {
-            transformToTheme('#0a0a12', '#ffffff', 'rgba(16, 16, 26, 0.7)', 'rgba(20, 20, 35, 0.8)');
+            transformToTheme('#4a4a4a', '#ffffff', '#2c2f33', '#1a1c1e');
             moonIcon.classList.remove('hidden');
             sunIcon.classList.add('hidden');
         } else {
-            transformToTheme('#ffffff', '#0a0a12', 'rgba(255, 255, 255, 0.8)', 'rgba(240, 240,  255, 0.9)');
+            transformToTheme('#ffffff', '#4a4a4a', '#f5e8d0', '#fdf6e3');
             moonIcon.classList.add('hidden');
             sunIcon.classList.remove('hidden');
         }
