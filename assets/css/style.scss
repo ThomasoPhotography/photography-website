@@ -113,14 +113,14 @@ body {
         &:hover {
             color: $text-light;
             text-shadow: $neon-glow;
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: $light-color;
             transform: translateY(-2px);
         }
 
         &--active {
             color: $text-light;
             text-shadow: $neon-glow;
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: $light-color;
             transform: translateY(-2px);
 
             &::after {
@@ -152,12 +152,12 @@ body {
         min-width: 13.75rem;
         background-color: $lightest-color;
         border: 1px solid $light-color;
-        border-radius: var(--border-radius);
+        border-radius: 1rem;
         padding: 0.5rem;
         opacity: 0;
         visibility: hidden;
         transform: translateY(.625rem) scale(0.98);
-        box-shadow: 0 .625rem 1.875rem var(--shadow-color);
+        box-shadow: 0 .625rem 1.875rem $neon-glow;
         z-index: 100;
 
         &::before {
@@ -167,7 +167,7 @@ body {
             left: 1.25rem;
             width: .75rem;
             height: .75rem;
-            background-color: $lightest-color;
+            background-color: $light-color;
             border-left: 1px solid $light-color;
             border-top: 1px solid $light-color;
             transform: rotate(45deg);
@@ -182,12 +182,12 @@ body {
             text-decoration: none;
             padding: 0.7rem 1rem;
             display: block;
-            border-radius: var(--border-radius);
+            border-radius: 1rem;
             margin-bottom: 2px;
 
             &:hover {
-                background-color: rgba(33, 150, 243, 0.15);
-                color: $dark-color;
+                background-color: $light-color;
+                color: $text-light;
                 transform: translateX(.3125rem);
             }
         }
@@ -230,8 +230,8 @@ body {
     }
 }
 
-.c-copyright{
-    background-color: #f5e8d0;
+.c-copyright {
+    background-color: $light-color;
     color: $text-dark;
 }
 
@@ -255,7 +255,7 @@ body {
         font-size: 14px;
 
         &:hover {
-            color: $dark-color;
+            color: $text-light;
         }
     }
 }

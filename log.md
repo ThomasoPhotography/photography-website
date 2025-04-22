@@ -30,6 +30,7 @@ Commit XX: Upd -> Improved Navigation responsiveness
 Commit XXI: Fix -> Adjusted footer styles for better alignment
 Commit XXII: Upd -> Finalized styles and cleaned up codebase
 Commit XXIII: Fix -> Resolved styling issues
+Commit XXIV: Fix -> Minor adjustments to SCSS
 ```
 ## Daily hours
 ```

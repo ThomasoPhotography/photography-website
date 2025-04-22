@@ -58,10 +58,12 @@
 - Footer
 - Bootstrap
 #### Fixed
-- 
+- style.scss
+- settings
 #### Changed
 - log.md
 - changelog.md
 - index.html
+- style.scss
 #### Removed
--  
+- none
