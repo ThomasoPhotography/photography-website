@@ -26,6 +26,7 @@ Commit XVI: Fix -> Search button
 Commit XVII: Fix -> .fas (button Icons given all same css)
 Commit XVIII: Upd -> Updated README.md with recent changes and improvements as stated in versions
 Commit XIX: Feat -> Added footer and bootstrap
+Commit XX: Upd -> Improved Navigation responsiveness
 ```
 ## Daily hours
 ```

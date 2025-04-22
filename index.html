@@ -24,82 +24,73 @@
     <!-- Header (navigation container) -->
     <header class="header c-header">
         <!-- Navigation (nav) -->
-        <nav class="navbar c-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light c-nav">
             <!-- Nav brand (logo container) -->
-            <div class="nav-brand c-nav__brand">
-                <a href="index.html" class="logo c-logo">
-                    <img src="./assets/images/#" alt="Logo website">
+            <div class="container-fluid">
+                <a class="navbar-brand c-nav__brand" href="index.html">
+                    <img src="./assets/images/#" alt="Logo website" class="d-inline-block align-text-top">
                 </a>
-            </div>
-            <div class="nav-toggle c-nav__toggle">
-                <div class="hamburger c-hamburger">
-                    <span class="c-hamburger__span"></span>
-                    <span class="c-hamburger__span"></span>
-                    <span class="c-hamburger__span"></span>
-                </div>
-            </div>
-            <!-- Navigation list container -->
-            <div class="nav-menu c-nav__menu">
-                <!-- Navigation list (navigation link/item container) -->
-                <ul class="nav-list c-nav__list">
-                    <!-- Home link -->
-                    <li class="nav-item c-nav__item">
-                        <a href="index.html" class="nav-link active c-nav__link c-nav__link--active" aria-current="page">Home</a>
-                    </li>
-                    <!-- Dropdown link (Portfolio) -->
-                    <li class="nav-item c-nav__item has-dropdown">
-                        <a href="#" class="nav-link c-nav__link">
-                            Portfolio
-                            <i class="fa-solid fa-chevron-down c-icon c-icon__chevron"></i>
-                        </a>
-                        <ul class="dropdown c-nav__dropdown">
-                            <li><a href="#">Project I:</a></li>
-                            <li><a href="#">Project II:</a></li>
-                            <!--<li><a href="#">Categories</a></li>
-                            <li><a href="#">Seasonal</a></li>-->
-                        </ul>
-                    </li>
-                    <!-- Dropdown link (services) -->
-                    <li class="nav-item c-nav__item has-dropdown">
-                        <a href="#" class="nav-link c-nav__link">
-                            Services
-                            <i class="fa-solid fa-chevron-down c-icon c-icon__chevron"></i>
-                        </a>
-                        <ul class="dropdown c-nav__dropdown">
-                            <li><a href="#">Consulting</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Training</a></li>
-                        </ul>
-                    </li>
-                    <!-- About -->
-                    <li class="nav-item c-nav__item">
-                        <a href="#" class="nav-link c-nav__link">About</a>
-                    </li>
-                    <!-- Contact -->
-                    <li class="nav-item c-nav__item">
-                        <a href="#" class="nav-link c-nav__link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Nav-actions section -->
-            <div class="nav-actions c-nav__actions">
-                <!-- Search -->
-                <div class="search-container c-search__container">
-                    <input type="text" class="search-input c-search__input" placeholder="Search...">
-                    <button class="search-btn .c-btn__search">
-                        <i class="fas fa-search" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <!-- Light/Dark mode -->
-                <button class="theme-toggle c-btn c-btn__toggle c-btn__toggle--theme" aria-label="Toggle theme">
-                    <i class="fas fa-moon moon-icon" aria-hidden="true"></i>
-                    <i class="fas fa-sun sun-icon hidden" aria-hidden="true"></i>
+                <button class="navbar-toggler c-nav__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- Login/Sign-up Button -->
-                <button class="login-signup-btn c-btn c-btn__login" onclick="window.location.href='login.html';">
-                    <i class="fas fa-user" aria-hidden="true"></i> <!-- Login/Sign Up -->
-                </button>
+                <!-- Navigation list container -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav c-nav__list">
+                        <!-- Home link -->
+                        <li class="nav-item c-nav__item">
+                            <a class="nav-link active c-nav__link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <!-- Dropdown link (Portfolio) -->
+                        <li class="nav-item dropdown c-nav__item">
+                            <a class="nav-link dropdown-toggle c-nav__link" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                                <li><a class="dropdown-item" href="#">Project I</a></li>
+                                <li><a class="dropdown-item" href="#">Project II</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown link (Services) -->
+                        <li class="nav-item dropdown c-nav__item">
+                            <a class="nav-link dropdown-toggle c-nav__link" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="#">Consulting</a></li>
+                                <li><a class="dropdown-item" href="#">Development</a></li>
+                                <li><a class="dropdown-item" href="#">Support</a></li>
+                                <li><a class="dropdown-item" href="#">Training</a></li>
+                            </ul>
+                        </li>
+                        <!-- About -->
+                        <li class="nav-item c-nav__item">
+                            <a class="nav-link c-nav__link" href="#">About</a>
+                        </li>
+                        <!-- Contact -->
+                        <li class="nav-item c-nav__item">
+                            <a class="nav-link c-nav__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Nav-actions section -->
+                    <div class="d-flex ms-auto c-nav__actions">
+                        <!-- Search -->
+                        <div class="input-group me-2 c-search__container">
+                            <input type="text" class="form-control c-search__input" placeholder="Search..." aria-label="Search">
+                            <button class="btn c-btn__search" type="button">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <!-- Light/Dark mode -->
+                        <button class="btn c-btn c-btn__toggle c-btn__toggle--theme" aria-label="Toggle theme">
+                            <i class="fas fa-moon moon-icon" aria-hidden="true"></i>
+                            <i class="fas fa-sun sun-icon hidden" aria-hidden="true"></i>
+                        </button>
+                        <!-- Login/Sign-up Button -->
+                        <button class="btn c-btn c-btn__login" onclick="window.location.href='login.html';">
+                            <i class="fas fa-user" aria-hidden="true"></i> <!-- Login/Sign Up -->
+                        </button>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
