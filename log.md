@@ -19,6 +19,7 @@ Commit IX: Fix -> Update styles for header and navigation
 Commit X: Feat -> Navigation section user button added
 Commit XI: Repo -> Added branch 'index'
 Commit XII: Fix -> SCSS nesting + PX to REM
+Commit XIII: Feat -> javaScript functions
 ```
 ## Daily hours
 ```

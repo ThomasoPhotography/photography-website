@@ -210,7 +210,7 @@ body {
         }
 
         li {
-            list-style : none;
+            list-style: none;
         }
 
         a {
@@ -259,17 +259,23 @@ body {
         }
     }
 
-    &--active .c-hamburger__span:first-child {
+    &__active .nav-menu {
+        @media (max-width: 968px) {
+            right: 0;
+        }
+    }
+
+    &__active .c-hamburger__span:first-child {
         transform: rotate(45deg);
         top: .5625rem;
     }
 
-    &--active .c-hamburger__span:nth-child(2) {
+    &__active .c-hamburger__span:nth-child(2) {
         opacity: 0;
         width: 0;
     }
 
-    &--active .c-hamburger__span:last-child {
+    &__active .c-hamburger__span:last-child {
         transform: rotate(-45deg);
         top: .5625rem;
     }

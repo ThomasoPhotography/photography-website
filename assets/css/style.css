@@ -245,15 +245,20 @@ body {
     display: flex;
   }
 }
-.c-nav--active .c-hamburger__span:first-child {
+@media (max-width: 968px) {
+  .c-nav__active .nav-menu {
+    right: 0;
+  }
+}
+.c-nav__active .c-hamburger__span:first-child {
   transform: rotate(45deg);
   top: 0.5625rem;
 }
-.c-nav--active .c-hamburger__span:nth-child(2) {
+.c-nav__active .c-hamburger__span:nth-child(2) {
   opacity: 0;
   width: 0;
 }
-.c-nav--active .c-hamburger__span:last-child {
+.c-nav__active .c-hamburger__span:last-child {
   transform: rotate(-45deg);
   top: 0.5625rem;
 }
