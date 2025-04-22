@@ -37,6 +37,15 @@ body {
   color: #4a4a4a;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /*---------------------------------------/*
  # ELEMENTS
 /*---------------------------------------*/
