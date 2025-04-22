@@ -1,43 +1,31 @@
-// #region ***  DOM references
-const bodyEl = document.body;
-const toggleBtn = document.querySelector(".c-btn__toggle--theme");
-const moonIcon = toggleBtn.querySelector(".moon-icon");
-const sunIcon = toggleBtn.querySelector(".sun-icon");
+// #region ***  DOM references                           ***********
+const toggleModes = document.querySelectorAll(`.js-modes`);
 // #endregion
 
-// #region ***  Callback-Visualisation
-function showDarkMode(isDark) {
-    bodyEl.classList.toggle("dark-mode", isDark);
-    moonIcon.classList.toggle("hidden", isDark);
-    sunIcon.classList.toggle("hidden", !isDark);
+// #region ***  Callback-Visualisation - show___         ***********
+try {
+    for (const mode of toggleModes) {
+        mode.addEventListener('click', function () {
+            console.log(`Mode ${mode.dataset.mode} activated`);
+        });
+    };
+} catch (error) {
+    console.error(`Error: ${error}`);
 }
 // #endregion
 
-// #region ***  Callback-No Visualisation
-function callbackToggleTheme() {
-    const newMode = !bodyEl.classList.contains("dark-mode");
-    showDarkMode(newMode);
-    localStorage.setItem("darkModeEnabled", newMode);
-}
+// #region ***  Callback-No Visualisation - callback___  ***********
 // #endregion
 
-// #region ***  Data Access
-function getInitialTheme() {
-    // Only use stored value; otherwise default to light
-    return localStorage.getItem("darkModeEnabled") === "true";
-}
+// #region ***  Data Access - get___                     ***********
 // #endregion
 
-// #region ***  Event Listeners
-function listenToToggle() {
-    toggleBtn.addEventListener("click", callbackToggleTheme);
-}
+// #region ***  Event Listeners - listenTo___            ***********
 // #endregion
 
-// #region ***  Init / DOMContentLoaded
-document.addEventListener("DOMContentLoaded", function () {
-    // apply saved theme (false if never set)
-    showDarkMode(getInitialTheme());
-    listenToToggle();
+// #region ***  Init / DOMContentLoaded                  ***********
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialization code goes here
+    console.log('Document is ready!');
 });
 // #endregion
