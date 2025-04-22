@@ -14,3 +14,27 @@
 - log.md
 #### Removed
 - style.css.map
+
+### [Version 0.0.1]
+#### Added
+- .github/workflows
+- .github/workflows/codeql.yml
+#### Fixed
+- git user
+#### Changed
+- changelog.md
+- log.md
+#### Removed
+- style.css.map
+
+### [Version 0.0.2]
+#### Added
+- 
+#### Fixed
+- 
+#### Changed
+- changelog.md
+- log.md
+- index.html
+#### Removed
+- 

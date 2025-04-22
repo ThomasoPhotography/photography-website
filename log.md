@@ -10,7 +10,12 @@ Commit IV: Create index.html
 Commit V: Create codeql.yml
 Commit VI: Create style.scss/style.css and link it to the html file.
 ```
+### 22/04/2025
+### Commits
+```
+Commit VII: Feat -> Header + Nav & placeholder main
+```
 ## Total hours
 ```
-31/03/2025 | ... hours
+31/03/2025 | 3 hours
 ```
