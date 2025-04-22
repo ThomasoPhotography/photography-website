@@ -33,6 +33,7 @@ Commit XXIII: Fix -> Resolved styling issues
 Commit XXIV: Fix -> Minor adjustments to SCSS
 Commit XXV: Fix -> Minor adjustments to JS
 Commit XXVI: Upd -> Added comments for clarity and maintainability
+Commit XXVII: Fix -> Fixed minor bugs in JavaScript & Bootstrap functions
 ```
 ## Daily hours
 ```
