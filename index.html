@@ -30,10 +30,10 @@
                 </a>
             </div>
             <div class="nav-toggle c-nav__toggle">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="hamburger c-hamburger">
+                    <span class="c-hamburger__span"></span>
+                    <span class="c-hamburger__span"></span>
+                    <span class="c-hamburger__span"></span>
                 </div>
             </div>
             <!-- Navigation list container -->
@@ -48,9 +48,7 @@
                     <li class="nav-item c-nav__item has-dropdown">
                         <a href="#" class="nav-link c-nav__link">
                             Products
-                            <svg class="icon chevron-icon" viewBox="0 0 24 24" width="14" height="14">
-                                <path d="M7 10l5 5 5-5z" fill="currentColor"></path>
-                            </svg>
+                            <i class="fa-solid fa-chevron-down c-icon c-icon__chevron"></i>
                         </a>
                         <ul class="dropdown c-nav__dropdown">
                             <li><a href="#">New Arrivals</a></li>
@@ -63,9 +61,7 @@
                     <li class="nav-item c-nav__item has-dropdown">
                         <a href="#" class="nav-link c-nav__link">
                             Services
-                            <svg class="icon chevron-icon" viewBox="0 0 24 24" width="14" height="14">
-                                <path d="M7 10l5 5 5-5z" fill="currentColor"></path>
-                            </svg>
+                            <i class="fa-solid fa-chevron-down c-icon c-icon__chevron"></i>
                         </a>
                         <ul class="dropdown c-nav__dropdown">
                             <li><a href="#">Consulting</a></li>
@@ -92,8 +88,8 @@
             <div class="nav-actions c-nav__actions">
                 <!-- Search -->
                 <div class="search-container c-search__container">
-                    <input type="text" class="search-input" placeholder="Search...">
-                    <button class="search-btn">
+                    <input type="text" class="search-input c-search__input" placeholder="Search...">
+                    <button class="search-btn .c-btn__search">
                         <i class="fas fa-search" aria-hidden="true"></i>
                     </button>
                 </div>
@@ -109,6 +105,7 @@
             </div>
         </nav>
     </header>
+
     <!-- Scripts -->
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/482ca69ce4.js" crossorigin="anonymous"></script>

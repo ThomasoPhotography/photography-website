@@ -41,7 +41,8 @@
 
 ### [Version 0.0.3]
 #### Added
-- 
+- Javascript folder
+- script.js
 #### Fixed
 - 
 #### Changed
@@ -49,5 +50,6 @@
 - log.md
 - index.html
 - Branch
+- style.scss
 #### Removed
 -  
