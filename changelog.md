@@ -44,7 +44,7 @@
 - Javascript folder
 - script.js
 #### Fixed
-- 
+- style.scss
 #### Changed
 - changelog.md
 - log.md
