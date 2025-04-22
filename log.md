@@ -17,6 +17,7 @@ Commit VII: Feat -> Header + Nav & placeholder main
 Commit VIII: Del -> Main
 Commit IX: Fix -> Update styles for header and navigation
 Commit X: Feat -> Navigation section user button added
+Commit XI: Repo -> Added branch 'index'
 ```
 ## Daily hours
 ```
